@@ -1,0 +1,148 @@
+/**CREDITS - W3SCHOOLS.COM**/
+
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap");
+body
+{
+  background-image:linear-gradient(rgba(0,168,255, 0.3),rgba(0,168,255, 0.3)), url('../images/header-bg.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+}
+
+html 
+{
+  font-size: 82.5%;
+}
+
+.back-home 
+{
+    width: 100px;
+    position: absolute;
+    padding: 20px;
+    
+}
+.back-home ul li
+{
+    list-style-type: none;
+    font-size: 4.0rem;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+ .back-home ul li a
+{
+    background: #74b9ff;;
+    text-decoration: none;
+    padding: 10px; 
+    font-size: 4.0rem;
+    border-radius: 10px;
+    color: #fff;
+    font-family: var(--my-btn-font);
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+.back-home li a:hover
+{
+    background: #0984e3;
+    color: #222;
+}
+
+.main-div
+ {
+  width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.inner-div 
+{
+  width: 40vw;
+  padding: 3rem 8rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+.inner-div h2 
+{
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin: 1rem 0 4rem 0;
+}
+
+.inner-div li 
+{
+  font-size: 2rem;
+  list-style: none;
+  margin-top: 1.5rem;
+}
+
+input 
+{
+  cursor: pointer;
+}
+
+#submit, .btn 
+{
+  outline: none;
+  display: block;
+  padding: 1rem 3rem;
+  margin: auto;
+  margin-top: 5rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  background-color: #74b9ff;
+  color: #fff;
+  letter-spacing: 0.2rem;
+}
+
+#submit:hover
+ {
+  background-color: #0984e3;
+  cursor: pointer;
+}
+
+#showScore
+ {
+  margin-top: 3rem;
+  background-color: #dfe6e9;
+  box-shadow: 0 1rem 1rem -0.8rem rgba(0, 0, 0, 0.4);
+  padding: 3rem 5rem;
+}
+
+#showScore h3 
+{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.scoreArea 
+{
+  display: none;
+}
+
+.btn 
+{
+  margin-top: 2rem;
+  background-color: #55efc4;
+  color: #2d3436;
+}
+
+.btn:hover
+ {
+  background-color: #00b894;
+  color: #fff;
+}

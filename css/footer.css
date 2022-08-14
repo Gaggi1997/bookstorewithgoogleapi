@@ -1,0 +1,27 @@
+a:link 
+{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.navbar-nav
+{
+     
+      margin-left:38%;
+      text-align:center;
+}
+#customNav1
+{
+      padding-right:25%;
+      font-size: 21px;
+}
+#customNav2
+{
+    padding-right:25%;
+    font-size: 21px;
+}
+#customNav3
+{
+    padding-right:25%;
+    font-size: 21px;
+}

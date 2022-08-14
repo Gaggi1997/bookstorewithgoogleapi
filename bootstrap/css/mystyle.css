@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(221, 217, 217);
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#main > :first-child {
+    margin-top: 30px;
+}
+
+.banner {
+    background-image: linear-gradient( 
+        0deg
+        , rgba(0, 0, 0, 0.7), rgba(5, 5, 5, 0.2) ), url("../../image/background/sergey-pesterev-ijFuMdN_02E-unsplash.jpg");
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+ a{
+    color :#fff;
+}
+h1 {
+    color:#000;
+}
+
+h4 {
+    font-weight: bold;
+    color:#000;
+}
+
+.mb-5 {
+    margin-bottom: 2em;
+}
+
+.author-img {
+  margin-top: 2em;
+  max-width: 50%;
+}
+
+.position-fixed {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: #000;
+}
+
+#main {
+    margin-bottom: 5em;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.flex-center h1 {
+    color:#fff;
+    font-family: monospace;
+}
+
+.flex-center h2 {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.flex-center h3 {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.flex-center p {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.flex-center ul li {
+  font-size: 1.5em;
+}
+
+
+.center {
+   
+    display: flex;
+    justify-content: center;
+    }
+
+
+    
