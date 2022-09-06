@@ -16,7 +16,7 @@ $google_client = new Google_Client();
 $google_client->setClientId('723275141144-qpu44na101rum746v0usta7nqth4qh4b.apps.googleusercontent.com');
 
 //Set the OAuth 2.0 Client Secret key
-$google_client->setClientSecret('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');
+$google_client->setClientSecret('');//generate key from google API Account
 
 //Set the OAuth 2.0 Redirect URI
 $google_client->setRedirectUri('http://localhost/WDCapstone/google.php');
